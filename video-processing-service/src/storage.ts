@@ -26,6 +26,6 @@ export function convertVideo(rawVideoName: string, processedVideoName: string) {
         console.log(`An error occured: ${err.message}`);
         reject(err);
       })
-      .save(`${localProcessedVideoPath}`/${processedVideoName});
+      .save(`${localProcessedVideoPath}/${processedVideoName}`);
     }) 
 }
