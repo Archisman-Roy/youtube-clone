@@ -4,3 +4,6 @@ node_modules
 # Ignore video inputs and outputs
 central_limit_a_normal_distribution.mp4
 central_limit_a_normal_distribution_out.mp4
+
+#Ignore DS_Store
+.DS_Store
